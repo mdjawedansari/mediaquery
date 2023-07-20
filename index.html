@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightseagreen;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+
+
+        @media screen and (min-width:768px) and (max-width:1023px) {
+            body{
+                background-color: green;
+                text-align: center;
+            }
+        }
+        @media screen and (min-width:425px) and (max-width:767px) {
+            body{
+                background-color: brown;
+                text-align: center;
+            }
+        }
+    
+        @media screen and (max-width:424px) {
+            body{
+                background-color: palevioletred;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>This is a Media Query demo page.</h1>
+</body>
+</html>
